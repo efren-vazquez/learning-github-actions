@@ -1,0 +1,28 @@
+name: Efren
+age: 23
+key:
+  key: value
+  key2: 33
+  key3:
+    omg: value
+array:
+  - Item 1
+  - Item 2
+  - { name: Efren }
+
+jsonArray: [item1, item2, item3]
+
+# Array of objects
+objectArray:
+  - object: efrén
+    key: value
+  - object: erick
+    key: value
+  
+
+
+longText: |
+  Hay que dividir el 
+  texto muy largo en varias 
+  lineas kdsakjf ldskfdl
+
