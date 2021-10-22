@@ -6,7 +6,7 @@ jobs: # List of jobs
   run-shell-command:
     runs-on: ubuntu-latest
     steps:  # Steps performe by the job
-      - name: echo a string
+      - name: ecccho a string
         run: echo "Hello efren"
       - name: multiline script
         run: |
