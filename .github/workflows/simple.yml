@@ -6,8 +6,8 @@ jobs: # List of jobs
   run-shell-command:
     runs-on: ubuntu-latest
     steps:  # Steps performe by the job
-      - name: ecccho a string
-        run: echo "Hello efren"
+      - name: echo a string
+        run: eCHo "Hello efren"
       - name: multiline script
         run: |
           node --version
