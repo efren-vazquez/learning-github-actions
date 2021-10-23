@@ -7,9 +7,8 @@ jobs: # List of jobs
     runs-on: ubuntu-latest
     steps:  # Steps performe by the job
       - name: echo a string
-        run: eCHo "Hello efren"
+        run: echo "Hello efren"
       - name: multiline script
         run: |
           node --version
           npm --version
-
