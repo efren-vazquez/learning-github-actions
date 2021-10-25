@@ -1,6 +1,6 @@
 name: Shell Commands
 
-on: [push] # Event
+on: [pull_request] # Event
 
 jobs: # List of jobs
   run-shell-command:
