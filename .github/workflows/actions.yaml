@@ -7,9 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Simple JS Actions
+        run: |
+          pwd
+          ls
         id: greet
         uses: actions/hello-world-javascript-action@v1
         with:
-          who-to-greet: Efren
+          who-to-greet: Efren # this creates an output
       - name: Log Gretting Time
-        run: echo "${{ steps.greet.outputs.time }}"
+        run: echo "${{ steps.greet.outputs.time }}" # uses output from who-to-greet
